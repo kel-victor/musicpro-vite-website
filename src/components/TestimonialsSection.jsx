@@ -19,7 +19,7 @@ export default function TestimonialsSection() {
           'MusicPro Hub transformed my raw vocals into magic. Their mixing & mastering team gave my EP a global feel!',
         stars: 5,
         avatar: 'https://randomuser.me/api/portraits/women/44.jpg',
-        video: 'public/angeladaniels.mp4'
+        video: '/angeladaniels.mp4'
       },
       {
         name: 'Kelvin Blaze',
@@ -28,7 +28,7 @@ export default function TestimonialsSection() {
           'Their music video production is cinematic and powerful. I’ve seen a surge in followers and engagement.',
         stars: 5,
         avatar: 'https://randomuser.me/api/portraits/men/45.jpg',
-        video: 'public/kelvinblaze.mp4'
+        video: '/kelvinblaze.mp4'
       },
       {
         name: 'Zino Vibes',
@@ -37,7 +37,7 @@ export default function TestimonialsSection() {
           'From recording to licensing, they walked me through everything. Professional and passionate team.',
         stars: 5,
         avatar: 'https://randomuser.me/api/portraits/men/33.jpg',
-        video: 'public/zinovibes.mp4'
+        video: '/zinovibes.mp4'
       },
       {
         name: 'Nora Groove',
@@ -45,7 +45,7 @@ export default function TestimonialsSection() {
         message: 'Their studio feels like home. Calm atmosphere and high-tech gear that brought out the best in me.',
         stars: 5,
         avatar: 'https://randomuser.me/api/portraits/women/60.jpg',
-        video: 'public/noragroove.mp4'
+        video: '/noragroove.mp4'
       },
       {
         name: 'Yusuf Tempo',
@@ -53,7 +53,7 @@ export default function TestimonialsSection() {
         message: 'Thanks to their promotion strategy, my Spotify monthly listeners grew by over 600%.',
         stars: 5,
         avatar: 'https://randomuser.me/api/portraits/men/58.jpg',
-        video: 'public/yusuftempo.mp4'
+        video: '/yusuftempo.mp4'
       },
       {
         name: 'Tamara Waves',
@@ -61,7 +61,7 @@ export default function TestimonialsSection() {
         message: 'Their guidance and audio engineers helped me refine my sound beyond expectation.',
         stars: 5,
         avatar: 'https://randomuser.me/api/portraits/women/23.jpg',
-        video: 'public/tamarawaves.mp4'
+        video: '/tamarawaves.mp4'
       },
       {
         name: 'Jay Synth',
@@ -69,7 +69,7 @@ export default function TestimonialsSection() {
         message: 'Every session is productive and inspiring. They provide both creativity and results.',
         stars: 5,
         avatar: 'https://randomuser.me/api/portraits/men/29.jpg',
-        video: 'public/jaysynth.mp4'
+        video: '/jaysynth.mp4'
       }
     ]
     setTestimonials(fetched)
