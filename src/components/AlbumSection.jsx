@@ -91,9 +91,23 @@ export default function AlbumSection() {
       }
       setImages(imgMap)
     }
+
     fetchImages()
+
     topControls.start({ x: [0, 100, 0], transition: { duration: 12, repeat: Infinity, ease: 'linear' } })
     bottomControls.start({ x: [0, -100, 0], transition: { duration: 12, repeat: Infinity, ease: 'linear' } })
+
+    // 🔊 Ensure only one audio plays at a time
+    const audios = document.querySelectorAll('audio')
+    audios.forEach((audio) => {
+      audio.addEventListener('play', () => {
+        audios.forEach((otherAudio) => {
+          if (otherAudio !== audio) {
+            otherAudio.pause()
+          }
+        })
+      })
+    })
   }, [])
 
   const pauseAnimations = () => {

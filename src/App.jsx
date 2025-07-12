@@ -2,7 +2,8 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import CookieConsent from './components/CookieConsent' // ✅ Add this line
+import CookieConsent from './components/CookieConsent'
+import BackgroundAudio from './components/BackgroundAudio' // ✅ ADD THIS LINE
 
 // Pages
 import Home from './pages/Home'
@@ -28,7 +29,8 @@ export default function App() {
           </Routes>
         </main>
         <Footer />
-        <CookieConsent /> {/* ✅ Add the banner at the bottom */}
+        <CookieConsent />
+        <BackgroundAudio /> {/* ✅ PLACED GLOBALLY AFTER EVERYTHING */}
       </div>
     </Router>
   )
